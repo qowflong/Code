@@ -1,0 +1,98 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Georgia, 'Times New Roman', serif;
+}
+body {
+    background-color: #f8fafc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 30px;
+}
+.article-container {
+    width: 100%;
+    max-width: 800px;
+    background-color: #fffbf0;
+    border-radius: 12px;
+    padding: 40px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+}
+.main-title {
+    color: #E65100;
+    font-size: 32px;
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+.sub-title {
+    color: #E65100;
+    font-size: 18px;
+    font-weight: normal;
+    margin-bottom: 24px;
+}
+.content-body {
+    position: relative;
+    margin-bottom: 30px;
+    line-height: 1.6;
+    color: #222222;
+}
+.float-image {
+    float: right;
+    width: 160px;
+    border-radius: 8px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+}
+.content-body p {
+    margin-bottom: 16px;
+    text-align: justify;
+    font-size: 16px;
+}
+.drop-cap {
+    float: left;
+    font-size: 48px;
+    line-height: 0.8;
+    padding-top: 4px;
+    padding-right: 8px;
+    padding-bottom: 2px;
+    color: #E65100;
+    font-weight: bold;
+}
+.flavor-block {
+    border: 2px solid #2E7D32;
+    background-color: #f4fbf4;
+    border-radius: 8px;
+    padding: 24px;
+}
+.flavor-title {
+    color: #2E7D32;
+    font-style: italic;
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+.flavor-list {
+    columns: 2;
+    column-gap: 30px;
+    list-style-type: none;
+}
+.flavor-list li {
+    position: relative;
+    padding-left: 20px;
+    margin-bottom: 10px;
+    font-size: 15px;
+    color: #1b4332;
+    break-inside: avoid;
+}
+.flavor-list li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 6px;
+    width: 10px;
+    height: 10px;
+    background-image: url('Anh/Bai18/icon_list_c.gif');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
