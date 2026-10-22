@@ -1,0 +1,31 @@
+.container{
+    background:white;
+    display:flex;
+flex-direction:column;
+    justify-content:center;
+    padding:30px;
+    max-width:800px;
+    width:90%;
+    margin:auto;
+}
+h1{
+    color:blue;
+    text-align:center;
+}
+img{
+    border-radius:8px;
+}
+.text1::first-letter{
+color:red;
+font-weight:bold;
+font-size:2.2em;
+}
+.text3::first-letter{
+color:red;
+font-weight:bold;
+font-size:2.2em;
+}
+.text2{
+text-align:right;
+background-color:lightblue;
+}

@@ -1,0 +1,40 @@
+body{
+    background-color: #FDF8DF;
+}
+.tieu-de{
+    color:#E65100;
+text-align: center;
+}
+.bo-cuc{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.khung-danh-sach{
+    width:300px;
+}
+.hieu-de-danh-sach{
+    background-color: #E65100;
+    color: #ffff;
+font-weight: bold;
+    padding: 8px 10px;
+}
+.cot-stt{
+    display: inline-block;
+    width: 45px;
+    text-align: center;
+}
+ol{
+    margin:0;
+    padding-left: 45px;
+    background-color: #ffff;
+}
+ol li{
+    padding: 8px 10px;
+    border-bottom: 1px solid #E65100;
+    font-size: 14px;
+}
+ol li:last-child(even){
+    background-color: #FDF8DF;
+}

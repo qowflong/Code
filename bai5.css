@@ -1,0 +1,27 @@
+.tieu-de{
+    color: #C2185B;
+    text-align: center;
+}
+.bo-cuc{
+    display:flex;
+    justify-content:center;
+    gap:30px;
+    margin-top:20px;
+}
+.ten-muc{
+    background-color: #C2185B;
+    font-weight: bold;
+    padding:5px 10px;
+    display: inline-block;
+    font-size: 10px;
+}
+.danh-sach-1{
+    list-style-type:square;
+}
+.danh-sach-2{
+    list-style-type:circle;
+}
+.ban-quyen{
+    text-align: center;
+    margin-top: 20px;
+}
